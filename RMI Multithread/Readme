@@ -1,0 +1,23 @@
+
+
+Hi,
+
+This is the instruction for my project 2. Thank you for taking time to check my project! :-)
+
+1) Open two terminal: one for server and ont for client
+
+2) Server terminal:
+   cd out/artifacts/S_jar   => get into S_jar folder
+   java -jar p2.jar         => should see "Server is running on port 1111..."
+
+3) Client terminal: (you can do this as many times as you want)
+   cd out/artifacts/C_jar   => make sure you are in C_jar folder and you can see p2.jar
+   java -jar p2.jar         => should see "what is client's name? -- welcome to runClient1"
+   enter a name for client  => you should see  ====== STORE ======
+
+3) test all functions
+
+
+NOTE: 1) You can do "java -jar p2.jar" as many times as you want -- this is multithread project.
+      2) All clients shared the same store.
+
